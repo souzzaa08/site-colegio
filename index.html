@@ -1,192 +1,100 @@
-<html>
-<head>
-<style>
-.myDiv {
-  border: 5px outset red;
-  background-color: lightblue;
-  text-align: center;
-}
-</style>
-</head>
-<body>
-
-<div class="myDiv">
-  <h2>This is a heading in a div element</h2>
-  <p>This is some text in a div element.</p>
-</div>
-
-</body>
-</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tag HTML div</title>
-    <style type="text/css">
-        #cabecalho{
-            background-color: black;
-            width: auto;
-            color: white;
-            height: 120px;
-            margin: 20px auto;
-            padding-left:20px;
-            padding-top:10px;
-        }
-        .centralizado {
-            background-color: rgb(182, 240, 199);
-            border: 2px solid #999;
-            width: 300px;
-            margin: 20px auto;
-            padding: 20px;
-        }
-        #rodape{
-            background-color:#008b8b;
-            width: auto;
-            color:black;
-            height: 120px;
-            margin: 20px auto;
-            padding-left:20px;
-            padding-top: 5px;
-       }
-    </style>     
+    <title>Equipe Alura Start</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="cabecalho">
-        <h1>Área de cabeçalho</h1>
-    </div> 
-    <div id="conteudo">
-        <div id="primeiroConteudo" class="centralizado">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Sed eu pellentesque augue. Suspendisse efficitur elementum condimentum. 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis ornare 
-                tortor, in elementum velit. Sed vehicula libero in ipsum feugiat, 
-                ut pellentesque velit commodo. Sed ultrices id massa a molestie. 
-                Duis ornare vitae ante et pellentesque. Sed libero felis, iaculis ut nisl 
-                sit amet, dictum laoreet arcu. Curabitur dapibus consequat nibh, ac auctor 
-                leo pharetra eget. Duis interdum arcu nulla, id congue nunc finibus sed. 
-                Nulla ante tellus, bibendum eget urna et, blandit posuere libero.</p>
-        </div> 
-        <div id="segundoConteudo" class="centralizado">
-            <p>Suspendisse vel nisl tempus, volutpat turpis sed, ornare ligula. 
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
-                per inceptos himenaeos. Orci varius natoque penatibus et magnis dis 
-                parturient montes, nascetur ridiculus mus. Nam ac purus malesuada quam 
-                hendrerit varius. Mauris placerat tempor dolor eu vulputate. 
-                Proin nec dictum mauris. Duis quis malesuada dui. Vivamus orci ex, 
-                tempus sit amet auctor non, hendrerit at nulla. Vivamus at ante non 
-                mauris maximus convallis ut nec velit. Orci varius natoque penatibus 
-                et magnis dis parturient montes, nascetur ridiculus mus. Donec enim ex, 
-                luctus a facilisis vitae, elementum sit amet sapien.</p>
-        </div>        
-    </div> 
-    <div id="rodape">
-        <p>Conteúdo do rodapé.</p>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="alurastart logo.png" alt="logo da alura start">
+        <ul class="cabecalho-lista">
+            <li class="cabecalho-lista-item">Escola</li>
+            <li class="cabecalho-lista-item">Estudante</li>
+        </ul>
+    </header>
+    <section class="escola">
+        <div class="escola-div-conteudo">
+            <h2 class="escola-titulo">Sobre a Escola</h2>
+            <p class="escola-texto-um">A Escola Alura foi fundada em 2010 e tem como objetivo ensinar Pensamento Computacional, através do ensino de  Programação.</p>
+            <p class="escola-texto-dois">A turma mais estudiosa e famosa é a Segunda Série A. Nós somos super unidos e a turma favorita por todos os professores e professoras que nos ajudam!</p>
+        </div>
+        <img class="escola-imagem" src="Formula-bro.png" alt="imagem que representa uma professora em sala de aula">
+    </section>
+    <section class="estudante">
+        <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
+        <div class="estudante-todos">
+        <span></span>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
+            <h3 class="estudante-nome">Marcelo</h3>
+            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Gabi.jpg" alt="foto da gabi">
+            <h3 class="estudante-nome">Gabriela</h3>
+            <a href="https://github.com/GabrielaM-L"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="https://www.linkedin.com/in/gabriela-marcomini-de-lima/"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://www.instagram.com/gabriela_marcomini/"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Liz.jpg" alt="foto da lizandra">
+            <h3 class="estudante-nome">Lizandra</h3>
+            <a href="https://github.com/LizandraDuarte40"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="https://www.linkedin.com/in/lizandrarlm-duarte/"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://www.instagram.com/lizandrarlm"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <span></span>
+        <span></span>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Joice.jpg" alt="foto da joice">
+            <h3 class="estudante-nome">Joice</h3>
+            <a href="https://github.com/JoiceAlura"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="https://www.linkedin.com/in/joicebarbaresco/"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://www.instagram.com/joicebarbaresco/"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Maria.jpg" alt="foto da maria">
+            <h3 class="estudante-nome">Maria</h3>
+            <a href="https://github.com/MagePSR"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="https://www.linkedin.com/in/mariageovanna"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://www.instagram.com/magpsr/"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Olivia.jpg" alt="foto da olhe">
+            <h3 class="estudante-nome">Olivia</h3>
+            <img class="estudante-icone" src="github.png" alt="icone github">
+            <a href="https://www.linkedin.com/in/olhe/"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://github.com/olhe12"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <span></span>
+        <span></span>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Rafa.jpg" alt="foto da rafa">
+            <h3 class="estudante-nome">Rafaela</h3>
+            <a href="https://github.com/rafaelamunhoz12"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="http://linkedin.com/in/rafaela-felix-munhoz-oliveira-02160a10a"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://www.instagram.com/rafafmo/"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+        <div class="estudante-div">
+            <img class="estudante-imagem" src="Thais.jpg" alt="foto da thais">
+            <h3 class="estudante-nome">Thais</h3>
+            <a href="https://github.com/Thaispianucci"><img class="estudante-icone" src="github.png" alt="icone github"></a>
+            <a href="https://www.linkedin.com/in/thais-pianucci-benedicto-54a9a416/"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
+            <a href="https://www.instagram.com/thaispianucci/"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
+        </div>
+
     </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tags div e span</title>
-    <style type="text/css">
-        .divs{
-            background-color: darkcyan;
-            border: 1px solid #000;
-        }
-        .span1 {
-            background-color: burlywood;
-            border: 2px solid red;
-        }
-        .span2 {
-            background-color:chocolate;
-            border: 2px solid red; 
-        }
-    </style>
-</head>
-<body>
-    <h1>Diferença entre as tags div e span</h1>
-    <div class="divs">Primeira div</div>
-    <div class="divs">Segunda div</div>
-    <span class="span1">Primeira span</span>
-    <span class="span2">Segunda span</span>
-    <div class="divs">Outra div</div>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posicionamento do elemento div</title>
-    <style type="text/css">
-        .divs{
-            width: 200px;
-            height: 300px;
-        }
-        .divAbsolute{
-            background-color: darkcyan;
-            position:absolute;
-            top:80px;
-            left:30px;
-        }
-        .divRelative {
-            background-color: burlywood;
-            position:relative;
-            top:120px;
-            left:300px;
-        }
-        .divFixed {
-            background-color:chocolate;
-            position: fixed;
-            top: 200px;
-            right: 200px;
-        }
-        .divStatic{
-            background-color:darkgreen;
-            position: static;
-            top: 300px;
-            left: 300px;
-        }
-        .divSticky{
-            background-color: grey;
-            position:sticky;
-            top: 0px;
-            left: 400px;
-        }
-        .divEsquerda{
-            background-color: blueviolet;
-            color:white;
-            float:left;
-        }
-        .divDireita{
-            background-color: darkblue;
-            color: white;
-            float: right;
-        }
-        .divAlignCenter{
-            margin: 0 auto;
-            width: 50%;
-            height: 300px;
-            background-color: darkolivegreen;
-         }
-         .clear{
-             clear:both;
-         }
-    </style>
-</head>
-<body>
-    <h1>Formas de posicionamento</h1>
-    <div class="divs divSticky">Posicionamento sticky</div>
-    <div class="divs divRelative">Posicionamento relative</div>
-    <div class="divs divFixed">Posicionamento fixed</div>
-    <div class="divs divStatic">Posicionamento static</div>
-    <div class="divs divAbsolute">Posicionamento absolute</div>
-    <div class="divAlignCenter">Posicionamento central</div> 
-    <div class="divs divEsquerda">Posicionamento float left - esquerda</div>
-    <div class="divs divDireita">Posicionamento float right - direita</div> 
-    <p class="clear">Parágrafo com a limpeza da propriedade float</p>
+    </section>
+    <footer class="rodape">
+        <img class="rodape-imagem"src="alurastart logo.png" alt="logo da alura start">
+    </footer>
 </body>
 </html>
